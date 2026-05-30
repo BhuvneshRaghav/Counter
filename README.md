@@ -1,16 +1,32 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive counter application built using **React** and **Vite**. This project demonstrates basic React state management using the `useState` hook, including boundary constraints to keep the counter within a specific range.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* **Increment / Decrement:** Easily add or reduce the counter value.
+* **Boundary Constraints:** * The counter **stops at 20** (maximum limit).
+    * The counter **stops at 0** (prevents negative values).
+* **Vite-Powered:** Fast build times and an optimized developer experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Library:** React
+* **Build Tool:** Vite
+* **Styling:** CSS3
+* **Version Control:** Git & GitHub
+
+---
+
+## 💻 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/BhuvneshRaghav/Counter.git](https://github.com/BhuvneshRaghav/Counter.git)
+cd Counter
